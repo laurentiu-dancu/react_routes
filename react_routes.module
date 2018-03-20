@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function react_routes_theme($existing, $type, $theme, $path) {
+  return [
+    'view_render' => [
+      'variables' => [
+          'component' => 'App',
+          'props' => [],
+      ],
+    ],
+  ];
+}

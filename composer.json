@@ -1,0 +1,17 @@
+{
+  "name": "novaftl/react_routes",
+  "description": "Isomorphic route provider for Drupal 8 for React.",
+  "type": "drupal-module",
+  "homepage": "https://github.com/novaFTL/react_routes",
+  "authors": [
+    {
+      "name": "Laurentiu Dancu",
+      "email": "laue.dancu@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "novaftl/react_renderer": "dev-master"
+  }
+}

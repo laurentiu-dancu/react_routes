@@ -1,0 +1,23 @@
+entity.react_route.edit_form:
+  path: '/admin/structure/react-routes/{react_route}/edit'
+  defaults:
+    _entity_form: react_route.edit
+    _title: 'Edit React Route'
+  requirements:
+    _permission: 'administer react routes'
+
+entity.react_route.add_form:
+  path: '/admin/structure/react-routes/add'
+  defaults:
+    _entity_form: react_route.add
+    _title: 'Add React Route'
+  requirements:
+    _permission: 'administer react routes'
+
+entity.react_route.collection:
+  path: '/admin/structure/react-routes'
+  defaults:
+    _entity_list: 'react_route'
+    _title: 'React Routes'
+  requirements:
+    _permission: 'administer react routes'

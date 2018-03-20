@@ -1,0 +1,9 @@
+name: React Routes
+type: module
+description: Provides isomorphic React routes using Rest resources.
+package: React
+core: 8.x
+dependencies:
+  - react_renderer
+  - views
+  - rest
